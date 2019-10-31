@@ -1,0 +1,50 @@
+body {
+	margin: auto;
+	padding: 10%;
+	font-size: 20px;
+}
+
+.header {
+	text-align: center;
+}
+
+.subtitle {
+	font-style: italic;
+
+}
+
+.first {
+	font-weight: bold;
+}
+
+.second {
+	font-style: italic;
+	text-align: center;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.img1 {
+	float: left;
+	margin: 0px 7px 7px 0px;
+	height: 200px;
+	width: auto;
+}
+
+.boldit {
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.right {
+	font-style: italic;
+	text-align: right;
+}
+
+.img2 {
+	display: block;
+	margin: 0 auto;
+}

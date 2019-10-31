@@ -1,0 +1,66 @@
+body {
+	margin-left: 5%;
+	margin-right: 5%;
+    font-size: 15px;	
+	background-attachment: fixed;
+}
+
+#date {
+	width: 45px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+textarea {
+	width: 40%;
+	height: 80px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+#mail {
+	font-weight: bold;
+}
+
+#category {
+	font-style: italic;
+	line-height: 1px;
+}
+
+#book {
+	padding: 3px;
+	width: 13%;
+	height: 25px;
+	font-size: 15px;
+}
+
+#position {
+	padding: 3px;
+	font-size: 15px;
+}
+
+#random {
+	width: 25%;
+	padding: 2px;
+}
+
+input[type="text"] {
+	border-radius: 4px;
+	width: 25%;
+	padding: 2px;
+}
+
+input[type="number"]{
+	border-radius: 4px;
+	width: 25%;
+	padding: 2px;
+}
+
+button {
+	margin-top: 1%;
+}
+
