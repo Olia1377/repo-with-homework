@@ -1,49 +1,46 @@
+/* вообще суть этой задачи было в минимум использовании цсс, а только html и семмантика */
+/* в целом, робота сделанная 4+ */
+
 body {
 	margin: auto;
 	padding: 10%;
 	font-size: 20px;
 }
 
+/* лучше используй .text--center */
 .header {
 	text-align: center;
 }
 
-.subtitle {
-	font-style: italic;
-
-}
-
+/* не очень название класса, можно сделать strong */
 .first {
 	font-weight: bold;
 }
 
+/* не очень название класса, лучше сделать класс text--center, и использовать <em> OR <cite> OR <i>*/
 .second {
 	font-style: italic;
 	text-align: center;
 }
 
+/* в принципе, норм название. чтобы не потеряться для чего это, можно было бы дать префикс текст с начала */
 .underline {
 	text-decoration: underline;
 }
 
-.img1 {
+.image-flight {
 	float: left;
 	margin: 0px 7px 7px 0px;
 	height: 200px;
 	width: auto;
 }
 
-.boldit {
-	font-style: italic;
-	font-weight: bold;
-
-}
-
-.right {
-	font-style: italic;
+/* для того чтобы стиля можно было переиспользовать, называй классы как можно конкретнее, сделай так чтобы они отвечали за одно действие*/
+.text--right {
 	text-align: right;
 }
 
+/* дай лучше имя */
 .img2 {
 	display: block;
 	margin: 0 auto;
